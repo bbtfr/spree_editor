@@ -45,3 +45,5 @@ en:
   rich_editor_engine: "Rich Editor engine"
   rich_editor_ids: "Rich Editor Identificators"
   rich_editor_ids_description: "List textarea's ids splitted by spaces here"
+  uploads: "Uploads"
+  uploads_description: "Manage upload files."
