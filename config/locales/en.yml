@@ -47,3 +47,28 @@ en:
   rich_editor_ids_description: "List textarea's ids splitted by spaces here"
   uploads: "Uploads"
   uploads_description: "Manage upload files."
+
+  successfully_created: "%{resource} has been successfully created!"
+  successfully_removed: "%{resource} has been successfully removed!"
+  successfully_updated: "%{resource} has been successfully updated!"
+  
+  upload:
+    model_name: Upload
+    file_name: File Name
+    size: Size
+    
+  spree:
+    admin:
+      subnav:
+        uploads: Uploads      
+                  
+      uploads:
+        new:
+          new_upload: New Upload
+        edit:
+          edit_upload: Edit Upload
+          preview: Preview
+          link: Link
+        index:
+          listing_uploads: Listing Uploads
+          new_upload: Upload a file

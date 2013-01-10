@@ -1,5 +1,5 @@
 ---
-en-AU:
+zh-CN:
   editor:
     align_center: Align Center
     align_left: Align Left
@@ -39,36 +39,36 @@ en-AU:
     upload_image: Upload Image
     upload_file: Upload File
     
-  enable_rich_editor: "Enable Rich Editor"
-  rich_editor: "Rich Editor"
-  rich_editor_description: "Configure Rich Editor settings."
-  rich_editor_engine: "Rich Editor engine"
-  rich_editor_ids: "Rich Editor Identificators"
-  rich_editor_ids_description: "List textarea's ids splitted by spaces here"
-  uploads: "Uploads"
-  uploads_description: "Manage upload files."
+  enable_rich_editor: 使用富文本编辑器
+  rich_editor: 富文本编辑器
+  rich_editor_description: 设置富文本编辑器。
+  rich_editor_engine: 富文本编辑器引擎
+  rich_editor_ids: 使用富文本编辑器的文本框ID
+  rich_editor_ids_description: "使用富文本编辑器的文本框ID，用逗号分隔。"
+  uploads: 附件
+  uploads_description: 管理富文本编辑器上传的附件。
 
-  successfully_created: "%{resource} has been successfully created!"
-  successfully_removed: "%{resource} has been successfully removed!"
-  successfully_updated: "%{resource} has been successfully updated!"
+  successfully_created: "%{resource} 创建成功！"
+  successfully_removed: "%{resource} 删除成功！"
+  successfully_updated: "%{resource} 更新成功！"
   
   upload:
-    model_name: Upload
-    file_name: File Name
-    size: Size
+    model_name: 附件
+    file_name: 文件名
+    size: 文件大小
     
   spree:
     admin:
       subnav:
-        uploads: Uploads      
+        uploads: 附件      
                   
       uploads:
         new:
-          new_upload: New Upload
+          new_upload: 新建附件
         edit:
-          edit_upload: Edit Upload
-          preview: Preview
-          link: Link
+          edit_upload: 编辑附件
+          preview: 预览
+          link: 链接
         index:
-          listing_uploads: Listing Uploads
-          new_upload: Upload a file
+          listing_uploads: 附件列表
+          new_upload: 上传一个文件
