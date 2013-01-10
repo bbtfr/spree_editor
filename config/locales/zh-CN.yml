@@ -44,7 +44,7 @@ zh-CN:
   rich_editor_description: 设置富文本编辑器。
   rich_editor_engine: 富文本编辑器引擎
   rich_editor_ids: 使用富文本编辑器的文本框ID
-  rich_editor_ids_description: "使用富文本编辑器的文本框ID，用逗号分隔。"
+  rich_editor_ids_description: 使用富文本编辑器的文本框ID，用空格分隔
   uploads: 附件
   uploads_description: 管理富文本编辑器上传的附件。
 
