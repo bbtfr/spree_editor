@@ -1,11 +1,16 @@
 <%= javascript_include_tag 'admin/tiny_mce/tiny_mce.js' %>
+<%= javascript_include_tag 'editors/config.js' %>
 
 <script type="text/javascript">
   $(function() {
-    var ids = [<%= raw ids.map{|id| "'textarea##{id}'"}.join(', ') %>]
+    var ids = [<%= raw ids.map{|id| "'textarea##{id}'"}.join(', ') %>], els = [];
     $(ids.join(', ')).each(function() {
-      CKEDITOR.replace(this.id);
+      els.push(this.id);
     });
-    tinyMCE.init();
+    if (typeof Editors !== 'object') { Editors = {} }
+    tinyMCE.init($.extend(Editors.TinyMCE, {
+      mode: "exact",
+      elements: els.join(', '),
+    }));
   });
 </script>
