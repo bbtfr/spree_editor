@@ -3,6 +3,10 @@ require 'spree_core'
 module SpreeEditor
   class Engine < Rails::Engine
     config.autoload_paths += %W(#{config.root}/lib)
+    
+    initializer :assets do |config|
+      Rails.application.config.assets.precompile += %w(admin/spree_editor.js editors/config.js)
+    end
 
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
