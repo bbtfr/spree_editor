@@ -23,4 +23,4 @@ This extension provides an inline rich-text editor for Spree. It implements diff
     `rails g spree_editor:install`
 
 
-Copyright (c) 2010 [divineforest], released under the New BSD License
+Copyright (c) 2013 [divineforest], released under the New BSD License
