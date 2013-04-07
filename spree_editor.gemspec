@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_editor'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'Adds support of several WYSIWYG editors to Spree'
   s.description = 'Atm supported: YUIRichEditor, WYMEditor, TinyMCE'
   s.required_ruby_version = '>= 1.8.7'
