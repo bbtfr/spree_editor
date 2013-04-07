@@ -3,14 +3,9 @@
 
 <script type="text/javascript">
   $(function() {
-    var ids = [<%= raw ids.map{|id| "'textarea##{id}'"}.join(', ') %>], els = [];
-    $(ids.join(', ')).each(function() {
-      els.push(this.id);
-    });
-    if (typeof Editors !== 'object') { Editors = {} }
     tinyMCE.init($.extend(Editors.TinyMCE, {
       mode: "exact",
-      elements: els.join(', '),
+      elements: "<%= raw ids.join(', ') %>",
     }));
   });
 </script>
